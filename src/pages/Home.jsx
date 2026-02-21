@@ -42,29 +42,29 @@ const Home = () => {
             <section id="services-summary" className="services">
                 <div className="section-header">
                     <Reveal>
-                        <h2>Our Premium Services</h2>
+                        <h2>Services</h2>
                     </Reveal>
                     <Reveal delay={0.1}>
                         <p className="subtitle">Comprehensive care tailored to your unique smile.</p>
                     </Reveal>
                 </div>
                 <div className="services-grid">
-                    <Reveal className="service-card" delay={0.1}>
+                    <Reveal className="service-card theme-blue" delay={0.1}>
                         <div className="icon-wrapper"><i className="fa-solid fa-tooth"></i></div>
                         <h3>General Dentistry</h3>
                         <p>Routine checkups, cleanings, and preventive care to keep your smile healthy and bright.</p>
                     </Reveal>
-                    <Reveal className="service-card" delay={0.2}>
+                    <Reveal className="service-card theme-purple" delay={0.2}>
                         <div className="icon-wrapper"><i className="fa-solid fa-gem"></i></div>
                         <h3>Cosmetic Veneers</h3>
                         <p>Achieve a flawless, radiant smile with custom-made porcelain veneers designed just for you.</p>
                     </Reveal>
-                    <Reveal className="service-card" delay={0.3}>
+                    <Reveal className="service-card theme-emerald" delay={0.3}>
                         <div className="icon-wrapper"><i className="fa-solid fa-screwdriver"></i></div>
                         <h3>Painless Implants</h3>
                         <p>Permanent, natural-looking tooth replacements utilizing advanced, virtually pain-free techniques.</p>
                     </Reveal>
-                    <Reveal className="service-card" delay={0.4}>
+                    <Reveal className="service-card theme-orange" delay={0.4}>
                         <div className="icon-wrapper"><i className="fa-solid fa-child"></i></div>
                         <h3>Orthodontics</h3>
                         <p>Straighten your smile discreetly with modern clear aligners or traditional braces.</p>
@@ -86,8 +86,8 @@ const Home = () => {
                 <div className="clients-grid">
                     <Reveal className="client-card" delay={0.1}>
                         <div className="compare-imgs">
-                            <img src="https://images.unsplash.com/photo-1598504786483-16a7dc260107?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Before teeth alignment" />
-                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="After teeth alignment" />
+                            <img src="https://images.unsplash.com/photo-1599305090598-fe179d501227?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Before teeth alignment" />
+                            <img src="https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="After teeth alignment" />
                         </div>
                         <div className="compare-labels">
                             <span>BEFORE</span>
@@ -102,7 +102,7 @@ const Home = () => {
                     <Reveal className="client-card" delay={0.2}>
                         <div className="compare-imgs">
                             <img src="https://images.unsplash.com/photo-1581594549595-35f6edc7b762?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Before orthodontic treatment" />
-                            <img src="https://images.unsplash.com/photo-1590664216135-c3a078e244d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="After orthodontic treatment" />
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="After orthodontic treatment" />
                         </div>
                         <div className="compare-labels">
                             <span>BEFORE</span>
@@ -116,8 +116,8 @@ const Home = () => {
 
                     <Reveal className="client-card" delay={0.3}>
                         <div className="compare-imgs">
-                            <img src="https://images.unsplash.com/photo-1599305090598-fe179d501227?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Before ceramic braces" />
-                            <img src="https://images.unsplash.com/photo-1522844990619-4951c40f7eda?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="After ceramic braces" />
+                            <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Before ceramic braces" />
+                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="After ceramic braces" />
                         </div>
                         <div className="compare-labels">
                             <span>BEFORE</span>

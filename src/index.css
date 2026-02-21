@@ -348,6 +348,47 @@ a {
   font-size: 0.95rem;
 }
 
+/* Service Themes */
+.theme-blue .icon-wrapper {
+  color: #0056b3;
+  background: #eff6ff;
+}
+
+.theme-blue:hover .icon-wrapper {
+  background: #0056b3;
+  color: white;
+}
+
+.theme-purple .icon-wrapper {
+  color: #7e22ce;
+  background: #faf5ff;
+}
+
+.theme-purple:hover .icon-wrapper {
+  background: #7e22ce;
+  color: white;
+}
+
+.theme-emerald .icon-wrapper {
+  color: #047857;
+  background: #ecfdf5;
+}
+
+.theme-emerald:hover .icon-wrapper {
+  background: #047857;
+  color: white;
+}
+
+.theme-orange .icon-wrapper {
+  color: #c2410c;
+  background: #fff7ed;
+}
+
+.theme-orange:hover .icon-wrapper {
+  background: #c2410c;
+  color: white;
+}
+
 /* The Experience */
 .experience {
   padding: 6rem 5%;

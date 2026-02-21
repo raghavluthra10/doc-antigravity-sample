@@ -5,7 +5,7 @@ const Navbar = () => {
         <header className="navbar">
             <div className="logo">
                 <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'inherit' }}>
-                    <i className="fa-solid fa-tooth"></i> [Clinic Name]
+                    <i className="fa-solid fa-tooth"></i>
                 </Link>
             </div>
             <nav className="nav-links">
